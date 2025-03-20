@@ -2,7 +2,7 @@
 
 Un juego de adivinanza de números con estilo retro arcade, desarrollado en HTML, CSS y JavaScript.
 
-![Vista previa del juego Número Mágico](./screenshot.png)
+![Vista previa del juego Número Mágico](Screenshot.png)
 
 ## 📖 Descripción
 
