@@ -53,7 +53,7 @@ Un juego de adivinanza de números con estilo retro arcade, desarrollado en HTML
 
 3. Abre el archivo `index.html` en tu navegador favorito
    
-O simplemente visita la [demo en línea](#) (reemplaza con tu URL cuando esté disponible)
+O simplemente visita el [juego en línea](https://tobias-rom3ro.github.io/NumeroMagico/)
 
 ## 📁 Estructura del Proyecto
 
