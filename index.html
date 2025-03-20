@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Número Mágico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="game-container">
+    <header>
+        <h1>Número Mágico</h1>
+        <div class="arcade-screen">
+            <div class="game-content">
+                <div class="game-display">
+                    <div class="screen-content">
+                        <div id="message" class="message">¡Adivina el número entre 1 y 100!</div>
+                        <div id="attemptCount" class="attempt-count">Intento: 1/10</div>
+
+                        <div class="input-container">
+                            <input type="number" id="guessInput" min="1" max="100" placeholder="Escribe un número">
+                            <button id="submitGuess" class="retro-button">Adivinar</button>
+                        </div>
+
+                        <div class="previous-attempts-container">
+                            <h3>Intentos anteriores:</h3>
+                            <div id="previousAttempts" class="previous-attempts"></div>
+                        </div>
+
+                        <div id="gameResult" class="game-result"></div>
+
+                        <button id="playAgain" class="retro-button play-again-button" style="display: none;">Jugar de nuevo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<!-- Efectos de sonido -->
+<audio id="correctSound" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf/win.mp3" preload="auto"></audio>
+<audio id="wrongSound" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf/failure.mp3" preload="auto"></audio>
+<audio id="hintSound" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf/button-click.mp3" preload="auto"></audio>
+<audio id="gameOverSound" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf/game-over.mp3" preload="auto"></audio>
+<audio id="startSound" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf/start-game.mp3" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
