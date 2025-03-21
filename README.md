@@ -1,4 +1,4 @@
-# Número Mágico
+# Número Mágico 1.0
 
 Un juego de adivinanza de números con estilo retro arcade, desarrollado en HTML, CSS y JavaScript.
 
@@ -69,11 +69,9 @@ numero-magico/
 
 ## 🎯 Próximas Mejoras
 
-- [ ] Implementar diferentes niveles de dificultad
 - [ ] Añadir tabla de puntuaciones altas
 - [ ] Incluir modo multijugador
 - [ ] Añadir modo contrarreloj
-- [ ] Personalización de colores y temas
 
 ---
 
