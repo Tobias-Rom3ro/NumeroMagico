@@ -43,7 +43,7 @@ Un juego de adivinanza de números con estilo retro arcade, desarrollado en HTML
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/numero-magico.git
+   git clone https://github.com/Tobias-Rom3ro/NumeroMagico.git
    ```
 
 2. Navega al directorio del proyecto:
