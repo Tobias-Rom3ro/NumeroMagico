@@ -69,6 +69,7 @@ numero-magico/
 
 ## 🎯 Próximas Mejoras
 
+- [ ] Imagen de fondo dinámica
 - [ ] Añadir tabla de puntuaciones altas
 - [ ] Incluir modo multijugador
 - [ ] Añadir modo contrarreloj
